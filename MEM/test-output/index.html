@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MemTestAutomtion" class="navigator-link">
+              <span class="suite-name border-failed">MemTestAutomtion</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MemTestAutomtion" class="navigator-link ">
+                    <span>C:\Users\lucentinnovation\eclipse-workspace\MEM\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MemTestAutomtion" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MemTestAutomtion" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MemTestAutomtion" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MemTestAutomtion" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MemTestAutomtion" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MemTestAutomtion" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 2 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MemTestAutomtion" class="hide-methods failed suite-MemTestAutomtion"> (hide)</a> <!-- hide-methods failed suite-MemTestAutomtion -->
+                      <a href="#" panel-name="suite-MemTestAutomtion" class="show-methods failed suite-MemTestAutomtion"> (show)</a> <!-- show-methods failed suite-MemTestAutomtion -->
+                    </span>
+                    <div class="method-list-content failed suite-MemTestAutomtion">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkSaveAndUpdateTest">checkSaveAndUpdateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkSaveBtnTest">checkSaveBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MemTestAutomtion -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MemTestAutomtion" class="hide-methods passed suite-MemTestAutomtion"> (hide)</a> <!-- hide-methods passed suite-MemTestAutomtion -->
+                      <a href="#" panel-name="suite-MemTestAutomtion" class="show-methods passed suite-MemTestAutomtion"> (show)</a> <!-- show-methods passed suite-MemTestAutomtion -->
+                    </span>
+                    <div class="method-list-content passed suite-MemTestAutomtion">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.LoginPage1Test" class="method navigator-link" hash-for-method="checkLoginTest">checkLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkPageHeadingTest">checkPageHeadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkPageTitleTest">checkPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkShopEmailTest">checkShopEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkShopNameTest">checkShopNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkShopURLTest">checkShopURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkShopifyPlanTest">checkShopifyPlanTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkSignOutBtnTest">checkSignOutBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkTitleGlobalPricinTest">checkTitleGlobalPricinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.LoginPage1Test" class="method navigator-link" hash-for-method="checkTitleTest">checkTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.MemSettingPageTest" class="method navigator-link" hash-for-method="checkVisibilityBtnTest">checkVisibilityBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MemTestAutomtion" title="mem.qa.testScripts.LoginPage1Test" class="method navigator-link" hash-for-method="checkselectStore">checkselectStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MemTestAutomtion -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MemTestAutomtion" class="panel MemTestAutomtion">
+          <div class="suite-MemTestAutomtion-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mem.qa.testScripts.MemSettingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSaveAndUpdateTest">
+                  </a> <!-- checkSaveAndUpdateTest -->
+                  <span class="method-name">checkSaveAndUpdateTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Pricing rules update in progress.] but found [Something went wrong while updating the pricing rules]
+	at mem.qa.testScripts.MemSettingPageTest.checkSaveAndUpdateTest(MemSettingPageTest.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSaveBtnTest">
+                  </a> <!-- checkSaveBtnTest -->
+                  <span class="method-name">checkSaveBtnTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Pricing updated successfully] but found [Something went wrong while updating the pricing rules]
+	at mem.qa.testScripts.MemSettingPageTest.checkSaveBtnTest(MemSettingPageTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MemTestAutomtion-class-failed -->
+          <div class="suite-MemTestAutomtion-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mem.qa.testScripts.MemSettingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageHeadingTest">
+                  </a> <!-- checkPageHeadingTest -->
+                  <span class="method-name">checkPageHeadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageTitleTest">
+                  </a> <!-- checkPageTitleTest -->
+                  <span class="method-name">checkPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShopEmailTest">
+                  </a> <!-- checkShopEmailTest -->
+                  <span class="method-name">checkShopEmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShopNameTest">
+                  </a> <!-- checkShopNameTest -->
+                  <span class="method-name">checkShopNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShopURLTest">
+                  </a> <!-- checkShopURLTest -->
+                  <span class="method-name">checkShopURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShopifyPlanTest">
+                  </a> <!-- checkShopifyPlanTest -->
+                  <span class="method-name">checkShopifyPlanTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignOutBtnTest">
+                  </a> <!-- checkSignOutBtnTest -->
+                  <span class="method-name">checkSignOutBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitleGlobalPricinTest">
+                  </a> <!-- checkTitleGlobalPricinTest -->
+                  <span class="method-name">checkTitleGlobalPricinTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkVisibilityBtnTest">
+                  </a> <!-- checkVisibilityBtnTest -->
+                  <span class="method-name">checkVisibilityBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MemTestAutomtion-class-passed -->
+          <div class="suite-MemTestAutomtion-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mem.qa.testScripts.LoginPage1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginTest">
+                  </a> <!-- checkLoginTest -->
+                  <span class="method-name">checkLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitleTest">
+                  </a> <!-- checkTitleTest -->
+                  <span class="method-name">checkTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkselectStore">
+                  </a> <!-- checkselectStore -->
+                  <span class="method-name">checkselectStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MemTestAutomtion-class-passed -->
+        </div> <!-- panel MemTestAutomtion -->
+        <div panel-name="test-xml-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lucentinnovation\eclipse-workspace\MEM\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MemTestAutomtion&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;mem.qa.listeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MEMTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mem.qa.testScripts.LoginPage1Test&quot;/&gt;
+      &lt;class name=&quot;mem.qa.testScripts.MemSettingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MEMTest --&gt;
+&lt;/suite&gt; &lt;!-- MemTestAutomtion --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MemTestAutomtion</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MEMTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MemTestAutomtion</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MemTestAutomtion</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MemTestAutomtion');
+function tableData_MemTestAutomtion() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkLoginTest')
+data.setCell(0, 2, 'mem.qa.testScripts.LoginPage1Test')
+data.setCell(0, 3, 21267);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkselectStore')
+data.setCell(1, 2, 'mem.qa.testScripts.LoginPage1Test')
+data.setCell(1, 3, 12259);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkVisibilityBtnTest')
+data.setCell(2, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(2, 3, 5721);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkPageTitleTest')
+data.setCell(3, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(3, 3, 4570);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkSaveBtnTest')
+data.setCell(4, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(4, 3, 3369);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkSaveAndUpdateTest')
+data.setCell(5, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(5, 3, 1372);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkTitleGlobalPricinTest')
+data.setCell(6, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(6, 3, 240);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkTitleTest')
+data.setCell(7, 2, 'mem.qa.testScripts.LoginPage1Test')
+data.setCell(7, 3, 105);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkSignOutBtnTest')
+data.setCell(8, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(8, 3, 74);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkShopifyPlanTest')
+data.setCell(9, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(9, 3, 59);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkShopEmailTest')
+data.setCell(10, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(10, 3, 57);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkShopURLTest')
+data.setCell(11, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(11, 3, 57);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkShopNameTest')
+data.setCell(12, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(12, 3, 53);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkPageHeadingTest')
+data.setCell(13, 2, 'mem.qa.testScripts.MemSettingPageTest')
+data.setCell(13, 3, 52);
+window.suiteTableData['MemTestAutomtion']= { tableData: data, tableDiv: 'times-div-MemTestAutomtion'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <div id="times-div-MemTestAutomtion">
+              </div> <!-- times-div-MemTestAutomtion -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MemTestAutomtion</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MemTestAutomtion" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mem.qa.testScripts.LoginPage1Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkTitleTest</span>
+                <span class="method-start">21966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkTitleTest status=SUCCESS method=LoginPage1Test.checkTitleTest()[pri:0, instanc...)</span>
+                <span class="method-start">22083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkLoginTest</span>
+                <span class="method-start">22114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkLoginTest status=SUCCESS method=LoginPage1Test.checkLoginTest()[pri:1, instanc...)</span>
+                <span class="method-start">43384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkselectStore</span>
+                <span class="method-start">43386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkselectStore status=SUCCESS method=LoginPage1Test.checkselectStore()[pri:2, ins...)</span>
+                <span class="method-start">55648 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mem.qa.testScripts.MemSettingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">55653 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkPageTitleTest</span>
+                <span class="method-start">55678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkPageTitleTest status=SUCCESS method=MemSettingPageTest.checkPageTitleTest()[pr...)</span>
+                <span class="method-start">60250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkPageHeadingTest</span>
+                <span class="method-start">60252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkPageHeadingTest status=SUCCESS method=MemSettingPageTest.checkPageHeadingTest(...)</span>
+                <span class="method-start">60305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkShopNameTest</span>
+                <span class="method-start">60307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkShopNameTest status=SUCCESS method=MemSettingPageTest.checkShopNameTest()[pri:...)</span>
+                <span class="method-start">60362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkShopURLTest</span>
+                <span class="method-start">60363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkShopURLTest status=SUCCESS method=MemSettingPageTest.checkShopURLTest()[pri:3,...)</span>
+                <span class="method-start">60421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkShopEmailTest</span>
+                <span class="method-start">60422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkShopEmailTest status=SUCCESS method=MemSettingPageTest.checkShopEmailTest()[pr...)</span>
+                <span class="method-start">60481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkShopifyPlanTest</span>
+                <span class="method-start">60482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkShopifyPlanTest status=SUCCESS method=MemSettingPageTest.checkShopifyPlanTest(...)</span>
+                <span class="method-start">60543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkSignOutBtnTest</span>
+                <span class="method-start">60544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkSignOutBtnTest status=SUCCESS method=MemSettingPageTest.checkSignOutBtnTest()[...)</span>
+                <span class="method-start">60619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkTitleGlobalPricinTest</span>
+                <span class="method-start">60620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkTitleGlobalPricinTest status=SUCCESS method=MemSettingPageTest.checkTitleGloba...)</span>
+                <span class="method-start">60862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSaveBtnTest</span>
+                <span class="method-start">60863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkSaveBtnTest status=FAILURE method=MemSettingPageTest.checkSaveBtnTest()[pri:8,...)</span>
+                <span class="method-start">64242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSaveAndUpdateTest</span>
+                <span class="method-start">64670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkSaveAndUpdateTest status=FAILURE method=MemSettingPageTest.checkSaveAndUpdateT...)</span>
+                <span class="method-start">66048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkVisibilityBtnTest</span>
+                <span class="method-start">66357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=checkVisibilityBtnTest status=SUCCESS method=MemSettingPageTest.checkVisibilityBtnT...)</span>
+                <span class="method-start">72079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72080 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

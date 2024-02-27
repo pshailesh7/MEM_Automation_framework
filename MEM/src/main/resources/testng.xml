@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MemTestAutomtion" >
+	<listeners>
+		<listener
+			class-name="mem.qa.listeners.ExtentReportListener" />
+	</listeners>
+	<test name="MEMTest">
+		<classes>
+			<class name="mem.qa.testScripts.LoginPage1Test"/>
+			<class name="mem.qa.testScripts.MemSettingPageTest"/>
+		</classes>
+	</test>
+</suite>

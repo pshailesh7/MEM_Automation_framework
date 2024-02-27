@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="KiteTestAutomtion">
+	<listeners>
+		<listener
+			class-name="kite.qa.listeners.ExtentReportListener" />
+	</listeners>
+	<test name="KiteTest">
+		<classes>
+			<class name="kite.qa.testScripts.LoginPageTest" />
+			<class name="kite.qa.testScripts.LoginPage2Test" />
+			<class name="kite.qa.testScripts.DashboardPageTest" />
+		</classes>
+	</test>
+</suite>
