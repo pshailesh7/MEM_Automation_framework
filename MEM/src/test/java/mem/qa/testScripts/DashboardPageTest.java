@@ -9,14 +9,14 @@ import mem.qa.base.TestBase;
 import mem.qa.pages.DashboardPage;
 import mem.qa.pages.LoginPage;
 import mem.qa.pages.LoginPage2;
-import mem.qa.pages.OrdersPage;
+
 
 public class DashboardPageTest extends TestBase {
 
 	DashboardPage dashboardPage;
 	LoginPage loginPage;
 	LoginPage2 loginPage2;
-	OrdersPage orderPage;
+
 
 //	defining child class constructor to call parent class constructor by using super() keyword for accessing config.properties file.
 	public DashboardPageTest() {

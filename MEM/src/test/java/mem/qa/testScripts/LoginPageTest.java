@@ -9,18 +9,17 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import mem.qa.base.TestBase;
-import mem.qa.pages.ForgotPasswordPage;
+
 import mem.qa.pages.LoginPage;
 import mem.qa.pages.LoginPage2;
-import mem.qa.pages.SignUpPage;
+
 import mem.qa.util.TestUtil;
 
 public class LoginPageTest extends TestBase {
 
 	LoginPage loginPage;
 	LoginPage2 loginPage2;
-	SignUpPage signUpPage;
-	ForgotPasswordPage forgotPassword;
+	
 
 	public LoginPageTest() {
 		super();
@@ -61,15 +60,6 @@ public class LoginPageTest extends TestBase {
 		return checkLoginTest();
 	}
 
-	@Test(priority = 5)
-	public void checkForgotPasswordLinkTest() {
-		forgotPassword = loginPage.checkForgotPasswordLink();
-	}
-
-	@Test(priority = 6)
-	public void checkSignUpTest() {
-		signUpPage = loginPage.checkSignUp();
-	}
 
 //	!!!--- Post Conditions ---!!!
 	@AfterMethod

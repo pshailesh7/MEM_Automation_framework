@@ -15,7 +15,7 @@ public class MemDashboardPage extends TestBase {
 	WebElement brandlogo;
 	@FindBy(xpath = "//p[text()='MyEasyMonogram']")
 	WebElement pagetitle;
-	@FindBy(xpath = "//div[@class='user-initials-container header-profile-container ant-flex css-6it8s5 ant-flex-align-center ant-flex-justify-center']")
+	@FindBy(xpath = "//div[@class='user-initials-container header-profile-container ant-flex css-p897kf ant-flex-align-center ant-flex-justify-center']")
 	WebElement avatar;
 	@FindBy(xpath = "//div[contains(text(),'Logout')]")
 	WebElement profilename;
@@ -47,25 +47,25 @@ public class MemDashboardPage extends TestBase {
 	WebElement calstartdate;
 	@FindBy(xpath = "//div[@class='ant-picker-input']")
 	WebElement calenddate;
-	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-6it8s5'])[1]")
+	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-p897kf'])[1]")
 	WebElement revenue;
-	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-6it8s5'])[2]")
+	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-p897kf'])[2]")
 	WebElement profit;
-	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-6it8s5'])[3]")
+	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-p897kf'])[3]")
 	WebElement orders;
-	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-6it8s5'])[4]")
+	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-p897kf'])[4]")
 	WebElement impproduct;
 	@FindBy(xpath = "//span[text()='Anchor Family Name - Steel Sign']")
 	WebElement topproduct;
 	@FindBy(xpath = "//span[@class='pricing-section ']")
 	WebElement salesreport;
-	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-6it8s5'])[1]")
+	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-p897kf'])[1]")
 	WebElement revenuepercentage;
-	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-6it8s5'])[2]")
+	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-p897kf'])[2]")
 	WebElement profitpercentage;
-	@FindBy(xpath = "(//span[@class= 'ant-typography comparison-section number-wrapper css-6it8s5'])[3]")
+	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-p897kf'])[3]")
 	WebElement orderpercentage;
-	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-6it8s5'])[4]")
+	@FindBy(xpath = "(//span[@class='ant-typography comparison-section number-wrapper css-p897kf'])[4]")
 	WebElement impproductpercentage;
 	@FindBy(xpath = "(//div[@class='section-header'])[1]")
 	WebElement profitchart;

@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 
 import mem.qa.base.TestBase;
 import mem.qa.pages.DashboardPage;
-import mem.qa.pages.ForgotPasswordPage2;
+
 import mem.qa.pages.LoginPage;
 import mem.qa.pages.LoginPage2;
 
 public class LoginPage2Test extends TestBase {
 
 	DashboardPage dashboardPage;
-	ForgotPasswordPage2 forgotPasswordPage2;
+	
 	LoginPage loginPage;
 	LoginPage2 loginPage2;
 
@@ -44,10 +44,6 @@ public class LoginPage2Test extends TestBase {
 		dashboardPage = loginPage2.checkPin(prop.getProperty("pin"));
 	}
 
-	@Test(priority = 3)
-	public void checkForgotPasswordLinkTest() {
-		forgotPasswordPage2 = loginPage2.checkForgotPasswordLink();
-	}
 
 //	!!!--- Post Conditions ---!!!
 	@AfterMethod

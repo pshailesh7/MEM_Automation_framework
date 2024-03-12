@@ -1,5 +1,6 @@
 package mem.qa.testScripts;
 
+
 import java.io.IOException;
 
 import org.testng.Assert;
@@ -74,20 +75,64 @@ public class MemSettingPageTest extends TestBase{
 	  Assert.assertEquals(memsettingpage.checktitleglobalpricingrule(), "Global Pricing Rules");
   }
   @Test(priority = 8)
+  public void checkInvalidInputTest() 
+  {
+	  Assert.assertEquals(memsettingpage.checkinvalidinput(), "Please enter a valid number");
+  }
+  @Test(priority = 9)
+  public void checkBlankInputTest() throws InterruptedException 
+  {
+	  Assert.assertEquals(memsettingpage.checkblankinput(), "Please enter markup");
+  }
+  @Test(priority = 10)
+  public void checkCompMarkupInvalidInput() 
+  {
+	  Assert.assertEquals(memsettingpage.checkcommarkupinvalidinput(),"Please enter a valid number");
+  }
+  @Test(priority = 11)
+  public void checkCompMarkupBlankInput() throws InterruptedException 
+  {
+	  Assert.assertEquals(memsettingpage.checkcommarkupblankinput(),"Please enter markup");
+  }
+  @Test(priority = 12)
+  public void checkAssingCentInputTest() throws InterruptedException 
+  {
+	  Assert.assertEquals(memsettingpage.checkcentblankinput(), "Please enter markup");
+  }
+  @Test(priority = 13)
   public void checkSaveBtnTest() throws InterruptedException 
   {
 	  Assert.assertEquals(memsettingpage.checksavebtn(), "Pricing updated successfully");
   }
-  @Test(priority = 9)
+  @Test(priority = 14)
   public void checkSaveAndUpdateTest() throws InterruptedException 
   {
 	  Assert.assertEquals(memsettingpage.checksaveandupdatebtn(), "Pricing rules update in progress.");
   }
-  @Test(priority = 10)
+  @Test(priority = 15)
   public void checkVisibilityBtnTest() throws InterruptedException 
   {
 	  boolean button = memsettingpage.checkvisibilitybtn();
 	  Assert.assertFalse(button);
+  }
+  @Test(priority = 16)
+  public void checkAdvancePricingRuleTest() throws InterruptedException 
+  {
+	  Assert.assertEquals(memsettingpage.checkadvancemarkup(),"Pricing updated successfully");
+  }
+  @Test(priority = 17)
+  public void checkAdvSaveandUpdate() 
+  {
+	  Assert.assertEquals(memsettingpage.checkadvsaveandupdate(),"Pricing rules update in progress.");
+  }
+  @Test(priority = 18)
+  public void checkbillingPageTitleTest() 
+  {
+	  Assert.assertEquals(memsettingpage.checkbillingpagetitle(), "Payment Integration");
+  }
+  public void invalidcardnumberTest() 
+  {
+	  
   }
   @AfterMethod
  	public void takeScreenshot(ITestResult result) throws IOException {

@@ -34,8 +34,5 @@ public class LoginPage2 extends TestBase {
 		return new DashboardPage();
 	}
 
-	public ForgotPasswordPage2 checkForgotPasswordLink() {
-		forgotPasswordLink.click();
-		return new ForgotPasswordPage2();
-	}
+	
 }

@@ -6,12 +6,19 @@
   </listeners>
   <test thread-count="5" name="MEMTest(failed)">
     <classes>
+      <class name="mem.qa.testScripts.MemDashboardPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkTopProductListValidationTest"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- mem.qa.testScripts.MemDashboardPageTest -->
       <class name="mem.qa.testScripts.MemSettingPageTest">
         <methods>
-          <include name="checkSaveAndUpdateTest"/>
-          <include name="checkSaveBtnTest"/>
           <include name="takeScreenshot"/>
+          <include name="checkAdvancePricingRuleTest"/>
           <include name="setup"/>
+          <include name="checkAdvSaveandUpdate"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- mem.qa.testScripts.MemSettingPageTest -->

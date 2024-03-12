@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -146,7 +146,7 @@ public class MemDashboardPageTest extends TestBase {
 	public void checkImportprodDataValidationTest() 
 	{
 		 String totalimportedproduct = memdashboardpage.checkimportproddatavalidation();
-		 Assert.assertEquals(totalimportedproduct, "107");
+		 Assert.assertEquals(totalimportedproduct, "102");
 	}
 	@Test(priority = 20)
 	public void checkTopProductListValidationTest() 

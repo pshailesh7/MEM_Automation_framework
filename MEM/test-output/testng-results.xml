@@ -1,207 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
+<testng-results ignored="0" total="51" passed="48" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-26T19:13:30 IST" name="MemTestAutomtion" finished-at="2024-02-26T19:14:43 IST" duration-ms="72902">
+  <suite started-at="2024-03-11T18:36:51 IST" name="MemTestAutomtion" finished-at="2024-03-11T18:38:46 IST" duration-ms="114173">
     <groups>
     </groups>
-    <test started-at="2024-02-26T19:13:30 IST" name="MEMTest" finished-at="2024-02-26T19:14:43 IST" duration-ms="72902">
+    <test started-at="2024-03-11T18:36:51 IST" name="MEMTest" finished-at="2024-03-11T18:38:46 IST" duration-ms="114173">
       <class name="mem.qa.testScripts.MemSettingPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:26 IST" name="setup" finished-at="2024-02-26T19:14:26 IST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:55 IST" name="setup" finished-at="2024-03-11T18:37:55 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkPageTitleTest()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:26 IST" name="checkPageTitleTest" finished-at="2024-02-26T19:14:30 IST" duration-ms="4570" status="PASS">
+        <test-method signature="checkPageTitleTest()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:55 IST" name="checkPageTitleTest" finished-at="2024-03-11T18:37:55 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageTitleTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:55 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:55 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkPageTitleTest status=SUCCESS method=MemSettingPageTest.checkPageTitleTest()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkPageTitleTest status=SUCCESS method=MemSettingPageTest.checkPageTitleTest()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkPageHeadingTest()[pri:1, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="checkPageHeadingTest" finished-at="2024-02-26T19:14:30 IST" duration-ms="52" status="PASS">
+        <test-method signature="checkPageHeadingTest()[pri:1, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:55 IST" name="checkPageHeadingTest" finished-at="2024-03-11T18:37:55 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageHeadingTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:55 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:55 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkPageHeadingTest status=SUCCESS method=MemSettingPageTest.checkPageHeadingTest()[pri:1, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkPageHeadingTest status=SUCCESS method=MemSettingPageTest.checkPageHeadingTest()[pri:1, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkShopNameTest()[pri:2, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="checkShopNameTest" finished-at="2024-02-26T19:14:30 IST" duration-ms="53" status="PASS">
+        <test-method signature="checkShopNameTest()[pri:2, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:55 IST" name="checkShopNameTest" finished-at="2024-03-11T18:37:56 IST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShopNameTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:56 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkShopNameTest status=SUCCESS method=MemSettingPageTest.checkShopNameTest()[pri:2, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkShopNameTest status=SUCCESS method=MemSettingPageTest.checkShopNameTest()[pri:2, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkShopURLTest()[pri:3, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="checkShopURLTest" finished-at="2024-02-26T19:14:30 IST" duration-ms="57" status="PASS">
+        <test-method signature="checkShopURLTest()[pri:3, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="checkShopURLTest" finished-at="2024-03-11T18:37:56 IST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShopURLTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:56 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkShopURLTest status=SUCCESS method=MemSettingPageTest.checkShopURLTest()[pri:3, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkShopURLTest status=SUCCESS method=MemSettingPageTest.checkShopURLTest()[pri:3, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkShopEmailTest()[pri:4, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="checkShopEmailTest" finished-at="2024-02-26T19:14:30 IST" duration-ms="57" status="PASS">
+        <test-method signature="checkShopEmailTest()[pri:4, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="checkShopEmailTest" finished-at="2024-03-11T18:37:56 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShopEmailTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:56 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkShopEmailTest status=SUCCESS method=MemSettingPageTest.checkShopEmailTest()[pri:4, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkShopEmailTest status=SUCCESS method=MemSettingPageTest.checkShopEmailTest()[pri:4, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkShopifyPlanTest()[pri:5, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="checkShopifyPlanTest" finished-at="2024-02-26T19:14:30 IST" duration-ms="59" status="PASS">
+        <test-method signature="checkShopifyPlanTest()[pri:5, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="checkShopifyPlanTest" finished-at="2024-03-11T18:37:56 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShopifyPlanTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:56 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkShopifyPlanTest status=SUCCESS method=MemSettingPageTest.checkShopifyPlanTest()[pri:5, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkShopifyPlanTest status=SUCCESS method=MemSettingPageTest.checkShopifyPlanTest()[pri:5, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkSignOutBtnTest()[pri:6, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:30 IST" name="checkSignOutBtnTest" finished-at="2024-02-26T19:14:31 IST" duration-ms="74" status="PASS">
+        <test-method signature="checkSignOutBtnTest()[pri:6, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="checkSignOutBtnTest" finished-at="2024-03-11T18:37:56 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSignOutBtnTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:31 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:56 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkSignOutBtnTest status=SUCCESS method=MemSettingPageTest.checkSignOutBtnTest()[pri:6, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkSignOutBtnTest status=SUCCESS method=MemSettingPageTest.checkSignOutBtnTest()[pri:6, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkTitleGlobalPricinTest()[pri:7, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:31 IST" name="checkTitleGlobalPricinTest" finished-at="2024-02-26T19:14:31 IST" duration-ms="240" status="PASS">
+        <test-method signature="checkTitleGlobalPricinTest()[pri:7, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="checkTitleGlobalPricinTest" finished-at="2024-03-11T18:37:56 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitleGlobalPricinTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:31 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:56 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkTitleGlobalPricinTest status=SUCCESS method=MemSettingPageTest.checkTitleGlobalPricinTest()[pri:7, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkTitleGlobalPricinTest status=SUCCESS method=MemSettingPageTest.checkTitleGlobalPricinTest()[pri:7, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkSaveBtnTest()[pri:8, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:31 IST" name="checkSaveBtnTest" finished-at="2024-02-26T19:14:34 IST" duration-ms="3369" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Pricing updated successfully] but found [Something went wrong while updating the pricing rules]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Pricing updated successfully] but found [Something went wrong while updating the pricing rules]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at mem.qa.testScripts.MemSettingPageTest.checkSaveBtnTest(MemSettingPageTest.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="checkInvalidInputTest()[pri:8, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:56 IST" name="checkInvalidInputTest" finished-at="2024-03-11T18:37:57 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidInputTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:57 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkInvalidInputTest status=SUCCESS method=MemSettingPageTest.checkInvalidInputTest()[pri:8, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkBlankInputTest()[pri:9, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:37:57 IST" name="checkBlankInputTest" finished-at="2024-03-11T18:38:00 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBlankInputTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:00 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBlankInputTest status=SUCCESS method=MemSettingPageTest.checkBlankInputTest()[pri:9, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkCompMarkupInvalidInput()[pri:10, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:00 IST" name="checkCompMarkupInvalidInput" finished-at="2024-03-11T18:38:00 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCompMarkupInvalidInput -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:00 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCompMarkupInvalidInput status=SUCCESS method=MemSettingPageTest.checkCompMarkupInvalidInput()[pri:10, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkCompMarkupBlankInput()[pri:11, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:00 IST" name="checkCompMarkupBlankInput" finished-at="2024-03-11T18:38:03 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCompMarkupBlankInput -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:03 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCompMarkupBlankInput status=SUCCESS method=MemSettingPageTest.checkCompMarkupBlankInput()[pri:11, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkAssingCentInputTest()[pri:12, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:03 IST" name="checkAssingCentInputTest" finished-at="2024-03-11T18:38:06 IST" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAssingCentInputTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:06 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAssingCentInputTest status=SUCCESS method=MemSettingPageTest.checkAssingCentInputTest()[pri:12, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkSaveBtnTest()[pri:13, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:06 IST" name="checkSaveBtnTest" finished-at="2024-03-11T18:38:09 IST" duration-ms="3817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSaveBtnTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:34 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:35 IST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:09 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkSaveBtnTest status=FAILURE method=MemSettingPageTest.checkSaveBtnTest()[pri:8, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkSaveBtnTest status=SUCCESS method=MemSettingPageTest.checkSaveBtnTest()[pri:13, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkSaveAndUpdateTest()[pri:9, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:35 IST" name="checkSaveAndUpdateTest" finished-at="2024-02-26T19:14:36 IST" duration-ms="1372" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="checkSaveAndUpdateTest()[pri:14, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:09 IST" name="checkSaveAndUpdateTest" finished-at="2024-03-11T18:38:14 IST" duration-ms="4502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSaveAndUpdateTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:14 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSaveAndUpdateTest status=SUCCESS method=MemSettingPageTest.checkSaveAndUpdateTest()[pri:14, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkVisibilityBtnTest()[pri:15, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:14 IST" name="checkVisibilityBtnTest" finished-at="2024-03-11T18:38:20 IST" duration-ms="6051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVisibilityBtnTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:20 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVisibilityBtnTest status=SUCCESS method=MemSettingPageTest.checkVisibilityBtnTest()[pri:15, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkAdvancePricingRuleTest()[pri:16, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:20 IST" name="checkAdvancePricingRuleTest" finished-at="2024-03-11T18:38:24 IST" duration-ms="4097" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[expected [Pricing rules update in progress.] but found [Something went wrong while updating the pricing rules]]]>
+              <![CDATA[element click intercepted: Element <span>...</span> is not clickable at point (1133, 556). Other element would receive the click: <button type="button" class="ant-btn css-p897kf ant-btn-primary ant-btn-lg customised-card-button  " disabled="">...</button>
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RI9GKG4', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\LUCENT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cff5ddd665d41d05b2a341d5ac7098]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Pricing rules update in progress.] but found [Something went wrong while updating the pricing rules]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at mem.qa.testScripts.MemSettingPageTest.checkSaveAndUpdateTest(MemSettingPageTest.java:84)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (1133, 556). Other element would receive the click: <button type="button" class="ant-btn css-p897kf ant-btn-primary ant-btn-lg customised-card-button  " disabled="">...</button>
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RI9GKG4', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\LUCENT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cff5ddd665d41d05b2a341d5ac7098
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at mem.qa.pages.MemSettingPage.checkadvancemarkup(MemSettingPage.java:260)
+at mem.qa.testScripts.MemSettingPageTest.checkAdvancePricingRuleTest(MemSettingPageTest.java:121)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -230,85 +320,689 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkSaveAndUpdateTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:36 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:36 IST" duration-ms="308" status="PASS">
+        </test-method> <!-- checkAdvancePricingRuleTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:24 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:24 IST" duration-ms="168" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkSaveAndUpdateTest status=FAILURE method=MemSettingPageTest.checkSaveAndUpdateTest()[pri:9, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkAdvancePricingRuleTest status=FAILURE method=MemSettingPageTest.checkAdvancePricingRuleTest()[pri:16, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkVisibilityBtnTest()[pri:10, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:36 IST" name="checkVisibilityBtnTest" finished-at="2024-02-26T19:14:42 IST" duration-ms="5721" status="PASS">
+        <test-method signature="checkAdvSaveandUpdate()[pri:17, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:24 IST" name="checkAdvSaveandUpdate" finished-at="2024-03-11T18:38:44 IST" duration-ms="20099" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-notification-notice-close-x']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RI9GKG4', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\LUCENT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cff5ddd665d41d05b2a341d5ac7098
+*** Element info: {Using=xpath, value=//span[@class='ant-notification-notice-close-x']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-notification-notice-close-x']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RI9GKG4', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\LUCENT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cff5ddd665d41d05b2a341d5ac7098
+*** Element info: {Using=xpath, value=//span[@class='ant-notification-notice-close-x']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at jdk.proxy2/jdk.proxy2.$Proxy11.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at mem.qa.pages.MemSettingPage.checkadvsaveandupdate(MemSettingPage.java:267)
+at mem.qa.testScripts.MemSettingPageTest.checkAdvSaveandUpdate(MemSettingPageTest.java:126)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkVisibilityBtnTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:42 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- checkAdvSaveandUpdate -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:44 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:44 IST" duration-ms="155" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkVisibilityBtnTest status=SUCCESS method=MemSettingPageTest.checkVisibilityBtnTest()[pri:10, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=checkAdvSaveandUpdate status=FAILURE method=MemSettingPageTest.checkAdvSaveandUpdate()[pri:17, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@6dc17b83]" started-at="2024-02-26T19:14:42 IST" name="teardown" finished-at="2024-02-26T19:14:43 IST" duration-ms="753" status="PASS">
+        <test-method signature="checkbillingPageTitleTest()[pri:18, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:44 IST" name="checkbillingPageTitleTest" finished-at="2024-03-11T18:38:45 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbillingPageTitleTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:45 IST" name="takeScreenshot" finished-at="2024-03-11T18:38:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkbillingPageTitleTest status=SUCCESS method=MemSettingPageTest.checkbillingPageTitleTest()[pri:18, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:mem.qa.testScripts.MemSettingPageTest@9f116cc]" started-at="2024-03-11T18:38:45 IST" name="teardown" finished-at="2024-03-11T18:38:46 IST" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- mem.qa.testScripts.MemSettingPageTest -->
-      <class name="mem.qa.testScripts.LoginPage1Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:13:30 IST" name="setup" finished-at="2024-02-26T19:13:52 IST" duration-ms="21874" status="PASS">
+      <class name="mem.qa.testScripts.MemDashboardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:22 IST" name="setup" finished-at="2024-03-11T18:37:22 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTitleTest()[pri:0, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:13:52 IST" name="checkTitleTest" finished-at="2024-02-26T19:13:52 IST" duration-ms="105" status="PASS">
+        <test-method signature="checkPageTitle()[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:22 IST" name="checkPageTitle" finished-at="2024-03-11T18:37:27 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:27 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPageTitle status=SUCCESS method=MemDashboardPageTest.checkPageTitle()[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkSalesChartHeader()[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:27 IST" name="checkSalesChartHeader" finished-at="2024-03-11T18:37:28 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSalesChartHeader -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:28 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSalesChartHeader status=SUCCESS method=MemDashboardPageTest.checkSalesChartHeader()[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkPageHeadingTest()[pri:1, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:28 IST" name="checkPageHeadingTest" finished-at="2024-03-11T18:37:29 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageHeadingTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:29 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPageHeadingTest status=SUCCESS method=MemDashboardPageTest.checkPageHeadingTest()[pri:1, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkbrandlogoTest()[pri:2, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:29 IST" name="checkbrandlogoTest" finished-at="2024-03-11T18:37:29 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbrandlogoTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:29 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkbrandlogoTest status=SUCCESS method=MemDashboardPageTest.checkbrandlogoTest()[pri:2, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfileNameTest()[pri:3, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:29 IST" name="checkProfileNameTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfileNameTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfileNameTest status=SUCCESS method=MemDashboardPageTest.checkProfileNameTest()[pri:3, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkTotalRevenueTest()[pri:4, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkTotalRevenueTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalRevenueTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTotalRevenueTest status=SUCCESS method=MemDashboardPageTest.checkTotalRevenueTest()[pri:4, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfitLogoTest()[pri:5, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkProfitLogoTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfitLogoTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfitLogoTest status=SUCCESS method=MemDashboardPageTest.checkProfitLogoTest()[pri:5, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkTotalProfitTest()[pri:6, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkTotalProfitTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalProfitTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTotalProfitTest status=SUCCESS method=MemDashboardPageTest.checkTotalProfitTest()[pri:6, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfitLogo()[pri:7, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkProfitLogo" finished-at="2024-03-11T18:37:30 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfitLogo -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfitLogo status=SUCCESS method=MemDashboardPageTest.checkProfitLogo()[pri:7, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkTotalOrderTest()[pri:8, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkTotalOrderTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalOrderTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTotalOrderTest status=SUCCESS method=MemDashboardPageTest.checkTotalOrderTest()[pri:8, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkOrderLogoTest()[pri:9, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkOrderLogoTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderLogoTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOrderLogoTest status=SUCCESS method=MemDashboardPageTest.checkOrderLogoTest()[pri:9, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkImportedProductTest()[pri:10, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkImportedProductTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImportedProductTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkImportedProductTest status=SUCCESS method=MemDashboardPageTest.checkImportedProductTest()[pri:10, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkImportedProductLogo()[pri:11, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkImportedProductLogo" finished-at="2024-03-11T18:37:30 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImportedProductLogo -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkImportedProductLogo status=SUCCESS method=MemDashboardPageTest.checkImportedProductLogo()[pri:11, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkHomeButtonTest()[pri:12, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkHomeButtonTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomeButtonTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkHomeButtonTest status=SUCCESS method=MemDashboardPageTest.checkHomeButtonTest()[pri:12, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProductBtnTest()[pri:13, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkProductBtnTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductBtnTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProductBtnTest status=SUCCESS method=MemDashboardPageTest.checkProductBtnTest()[pri:13, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkOrdersBtnTest()[pri:14, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkOrdersBtnTest" finished-at="2024-03-11T18:37:30 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrdersBtnTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOrdersBtnTest status=SUCCESS method=MemDashboardPageTest.checkOrdersBtnTest()[pri:14, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkDateValidationTest()[pri:15, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:30 IST" name="checkDateValidationTest" finished-at="2024-03-11T18:37:32 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDateValidationTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkDateValidationTest status=SUCCESS method=MemDashboardPageTest.checkDateValidationTest()[pri:15, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfitDataValidationTest()[pri:16, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="checkProfitDataValidationTest" finished-at="2024-03-11T18:37:32 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfitDataValidationTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfitDataValidationTest status=SUCCESS method=MemDashboardPageTest.checkProfitDataValidationTest()[pri:16, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkRevenueDataValidationTest()[pri:17, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="checkRevenueDataValidationTest" finished-at="2024-03-11T18:37:32 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRevenueDataValidationTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRevenueDataValidationTest status=SUCCESS method=MemDashboardPageTest.checkRevenueDataValidationTest()[pri:17, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkOrdersDataValidationTest()[pri:18, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="checkOrdersDataValidationTest" finished-at="2024-03-11T18:37:32 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrdersDataValidationTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOrdersDataValidationTest status=SUCCESS method=MemDashboardPageTest.checkOrdersDataValidationTest()[pri:18, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkImportprodDataValidationTest()[pri:19, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="checkImportprodDataValidationTest" finished-at="2024-03-11T18:37:32 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImportprodDataValidationTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkImportprodDataValidationTest status=SUCCESS method=MemDashboardPageTest.checkImportprodDataValidationTest()[pri:19, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkTopProductListValidationTest()[pri:20, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:32 IST" name="checkTopProductListValidationTest" finished-at="2024-03-11T18:37:52 IST" duration-ms="20073" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Anchor Family Name - Steel Sign']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RI9GKG4', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\LUCENT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cff5ddd665d41d05b2a341d5ac7098
+*** Element info: {Using=xpath, value=//span[text()='Anchor Family Name - Steel Sign']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Anchor Family Name - Steel Sign']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RI9GKG4', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\LUCENT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cff5ddd665d41d05b2a341d5ac7098
+*** Element info: {Using=xpath, value=//span[text()='Anchor Family Name - Steel Sign']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at jdk.proxy2/jdk.proxy2.$Proxy11.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at mem.qa.pages.MemDashboardPage.checktopproductlist(MemDashboardPage.java:167)
+at mem.qa.testScripts.MemDashboardPageTest.checkTopProductListValidationTest(MemDashboardPageTest.java:154)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTopProductListValidationTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:52 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:52 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTopProductListValidationTest status=FAILURE method=MemDashboardPageTest.checkTopProductListValidationTest()[pri:20, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkSalesReportTest()[pri:21, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:52 IST" name="checkSalesReportTest" finished-at="2024-03-11T18:37:52 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSalesReportTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:52 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSalesReportTest status=SUCCESS method=MemDashboardPageTest.checkSalesReportTest()[pri:21, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkRevenuePercentageTest()[pri:22, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:52 IST" name="checkRevenuePercentageTest" finished-at="2024-03-11T18:37:53 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRevenuePercentageTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRevenuePercentageTest status=SUCCESS method=MemDashboardPageTest.checkRevenuePercentageTest()[pri:22, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfitPercentageTest()[pri:23, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="checkProfitPercentageTest" finished-at="2024-03-11T18:37:53 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfitPercentageTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfitPercentageTest status=SUCCESS method=MemDashboardPageTest.checkProfitPercentageTest()[pri:23, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkOrderPercentageTest()[pri:24, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="checkOrderPercentageTest" finished-at="2024-03-11T18:37:53 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderPercentageTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOrderPercentageTest status=SUCCESS method=MemDashboardPageTest.checkOrderPercentageTest()[pri:24, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkImpProductPercentageTest()[pri:25, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="checkImpProductPercentageTest" finished-at="2024-03-11T18:37:53 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImpProductPercentageTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkImpProductPercentageTest status=SUCCESS method=MemDashboardPageTest.checkImpProductPercentageTest()[pri:25, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfitReportTest()[pri:26, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:53 IST" name="checkProfitReportTest" finished-at="2024-03-11T18:37:54 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfitReportTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:54 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfitReportTest status=SUCCESS method=MemDashboardPageTest.checkProfitReportTest()[pri:26, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="checkProfitChartHeader()[pri:27, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:54 IST" name="checkProfitChartHeader" finished-at="2024-03-11T18:37:55 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProfitChartHeader -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005]" started-at="2024-03-11T18:37:55 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkProfitChartHeader status=SUCCESS method=MemDashboardPageTest.checkProfitChartHeader()[pri:27, instance:mem.qa.testScripts.MemDashboardPageTest@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- mem.qa.testScripts.MemDashboardPageTest -->
+      <class name="mem.qa.testScripts.LoginPage1Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:36:52 IST" name="setup" finished-at="2024-03-11T18:37:00 IST" duration-ms="8485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTitleTest()[pri:0, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:37:00 IST" name="checkTitleTest" finished-at="2024-03-11T18:37:00 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitleTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:13:52 IST" name="takeScreenshot" finished-at="2024-02-26T19:13:52 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:37:00 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:00 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkTitleTest status=SUCCESS method=LoginPage1Test.checkTitleTest()[pri:0, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a] output={null}]]]>
+                <![CDATA[[TestResult name=checkTitleTest status=SUCCESS method=LoginPage1Test.checkTitleTest()[pri:0, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkLoginTest()[pri:1, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:13:52 IST" name="checkLoginTest" finished-at="2024-02-26T19:14:13 IST" duration-ms="21267" status="PASS">
+        <test-method signature="checkLoginTest()[pri:1, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:37:00 IST" name="checkLoginTest" finished-at="2024-03-11T18:37:11 IST" duration-ms="10751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginTest -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:14:13 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:37:11 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:11 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkLoginTest status=SUCCESS method=LoginPage1Test.checkLoginTest()[pri:1, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a] output={null}]]]>
+                <![CDATA[[TestResult name=checkLoginTest status=SUCCESS method=LoginPage1Test.checkLoginTest()[pri:1, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="checkselectStore()[pri:2, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:14:13 IST" name="checkselectStore" finished-at="2024-02-26T19:14:26 IST" duration-ms="12259" status="PASS">
+        <test-method signature="checkselectStore()[pri:2, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:37:11 IST" name="checkselectStore" finished-at="2024-03-11T18:37:22 IST" duration-ms="10972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkselectStore -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a]" started-at="2024-02-26T19:14:26 IST" name="takeScreenshot" finished-at="2024-02-26T19:14:26 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e]" started-at="2024-03-11T18:37:22 IST" name="takeScreenshot" finished-at="2024-03-11T18:37:22 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkselectStore status=SUCCESS method=LoginPage1Test.checkselectStore()[pri:2, instance:mem.qa.testScripts.LoginPage1Test@42e99e4a] output={null}]]]>
+                <![CDATA[[TestResult name=checkselectStore status=SUCCESS method=LoginPage1Test.checkselectStore()[pri:2, instance:mem.qa.testScripts.LoginPage1Test@3e58a80e] output={null}]]]>
               </value>
             </param>
           </params>

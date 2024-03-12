@@ -55,14 +55,6 @@ public class LoginPage extends TestBase {
 		return new LoginPage2();
 	}
 
-	public ForgotPasswordPage checkForgotPasswordLink() {
-		forgotPasswordLink.click();
-		return new ForgotPasswordPage();
-	}
-
-	public SignUpPage checkSignUp() {
-		signUpLink.click();
-		return new SignUpPage();
-	}
+	
 
 }

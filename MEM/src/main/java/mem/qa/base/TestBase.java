@@ -24,7 +24,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Users\\lucentinnovation\\eclipse-workspace\\MEM\\src\\main\\java\\mem\\qa\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\lucentinnovation\\git\\repository\\MEM\\src\\main\\java\\mem\\qa\\config\\config.properties");
 			prop.load(fis);
 		} catch (Exception e) {
 		}
@@ -32,19 +32,18 @@ public class TestBase {
 
 	public static void initialization() {
 		String browser = prop.getProperty("browser");
+		
 		if (browser.equals("chrome")) {
-			ChromeOptions option = new ChromeOptions();
-//			option.addArguments("--headless");
-			option.addArguments("--disable-notifications");
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\lucentinnovation\\eclipse-workspace\\MEM\\Driver\\chromedriver.exe");
-			driver = new ChromeDriver(option);
+		
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\lucentinnovation\\git\\repository\\MEM\\Driver\\chromedriver.exe");
+			driver = new ChromeDriver();
 		}
 		else if (browser.equals("edge")) {
-			System.setProperty("webdriver.edge.driver","C:\\Users\\lucentinnovation\\eclipse-workspace\\MEM\\Driver\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver","C:\\Users\\lucentinnovation\\git\\repository\\MEM\\Driver\\geckodriver.exe");
 			driver = new EdgeDriver();		}
 		else if(browser.equals("firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\lucentinnovation\\eclipse-workspace\\MEM\\Driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\lucentinnovation\\git\\repository\\MEM\\Driver\\msedgedriver.exe");
 			driver = new FirefoxDriver();
 		}
 
