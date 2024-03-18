@@ -7,8 +7,7 @@
 	<test name="MEMTest">
 		<classes>
 			<class name="mem.qa.testScripts.LoginPage1Test"/>
-			<class name="mem.qa.testScripts.MemDashboardPageTest"/>
-			<class name="mem.qa.testScripts.MemSettingPageTest"/>
+			<class name="mem.qa.testScripts.Mem_Product_Details_Page_Test"/>	
 		</classes>
 	</test>
 </suite>

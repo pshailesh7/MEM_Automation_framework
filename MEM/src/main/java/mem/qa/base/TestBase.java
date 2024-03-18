@@ -43,7 +43,7 @@ public class TestBase {
 			driver = new EdgeDriver();		}
 		else if(browser.equals("firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\lucentinnovation\\git\\repository\\MEM\\Driver\\msedgedriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\lucentinnovation\\git\\repository\\MEM\\Driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 

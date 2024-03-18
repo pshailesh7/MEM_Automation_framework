@@ -6,22 +6,14 @@
   </listeners>
   <test thread-count="5" name="MEMTest(failed)">
     <classes>
-      <class name="mem.qa.testScripts.MemDashboardPageTest">
+      <class name="mem.qa.testScripts.Mem_Product_Details_Page_Test">
         <methods>
-          <include name="setup"/>
-          <include name="checkTopProductListValidationTest"/>
-          <include name="takeScreenshot"/>
-        </methods>
-      </class> <!-- mem.qa.testScripts.MemDashboardPageTest -->
-      <class name="mem.qa.testScripts.MemSettingPageTest">
-        <methods>
-          <include name="takeScreenshot"/>
-          <include name="checkAdvancePricingRuleTest"/>
-          <include name="setup"/>
-          <include name="checkAdvSaveandUpdate"/>
           <include name="teardown"/>
+          <include name="setup"/>
+          <include name="check_Color_Slection_Test"/>
+          <include name="takeScreenshot"/>
         </methods>
-      </class> <!-- mem.qa.testScripts.MemSettingPageTest -->
+      </class> <!-- mem.qa.testScripts.Mem_Product_Details_Page_Test -->
     </classes>
   </test> <!-- MEMTest(failed) -->
 </suite> <!-- Failed suite [MemTestAutomtion] -->

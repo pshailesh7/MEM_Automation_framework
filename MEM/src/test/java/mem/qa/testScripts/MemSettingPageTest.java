@@ -104,44 +104,70 @@ public class MemSettingPageTest extends TestBase{
   {
 	  Assert.assertEquals(memsettingpage.checksavebtn(), "Pricing updated successfully");
   }
+
   @Test(priority = 14)
-  public void checkSaveAndUpdateTest() throws InterruptedException 
-  {
-	  Assert.assertEquals(memsettingpage.checksaveandupdatebtn(), "Pricing rules update in progress.");
-  }
-  @Test(priority = 15)
-  public void checkVisibilityBtnTest() throws InterruptedException 
-  {
-	  boolean button = memsettingpage.checkvisibilitybtn();
-	  Assert.assertFalse(button);
-  }
-  @Test(priority = 16)
   public void checkAdvancePricingRuleTest() throws InterruptedException 
   {
 	  Assert.assertEquals(memsettingpage.checkadvancemarkup(),"Pricing updated successfully");
   }
-  @Test(priority = 17)
-  public void checkAdvSaveandUpdate() 
+  @Test(priority = 15)
+  public void checkAdvSaveandUpdate() throws InterruptedException 
   {
 	  Assert.assertEquals(memsettingpage.checkadvsaveandupdate(),"Pricing rules update in progress.");
   }
-  @Test(priority = 18)
+
+  @Test(priority = 16)
   public void checkbillingPageTitleTest() 
   {
 	  Assert.assertEquals(memsettingpage.checkbillingpagetitle(), "Payment Integration");
   }
-  public void invalidcardnumberTest() 
+  @Test(priority = 17)
+  public void check_Invalid_Card_number_Test() 
   {
-	  
+	  Assert.assertEquals(memsettingpage.checkinvalidcarddetails(), "Please enter a valid card number (only numbers are allowed)");
   }
+  @Test(priority = 18)
+  public void check_Invalid_Exp_Date_Test() throws InterruptedException 
+  {
+	  Assert.assertEquals(memsettingpage.check_invalid_exp_date(), "Expiry date should be greater than the current date.");
+  }
+  @Test(priority = 19)
+  public void check_Invalid_CVV_No_Test() throws InterruptedException
+  {
+	  Assert.assertEquals(memsettingpage.check_invalid_cvv_no(), "CVV can be of either 3 or 4 digits");
+  }
+  @Test(priority = 20)
+  public void check_Blank_Input_Field_Test()
+  {
+	  boolean button = memsettingpage.check_blank_input_fields();
+	  Assert.assertTrue(button);
+  }
+  @Test(priority = 21)
+  public void check_Valid_Card_details_Test() throws InterruptedException 
+  {
+	  Assert.assertEquals(memsettingpage.checkvalidcarddetails(), "Card details updated successfully");
+  }
+  @Test(priority = 22)
+  public void check_last_Four_digit_Test() 
+  {
+	  Assert.assertEquals(memsettingpage.checklastfourdigit(), "0002");
+  }
+  @Test(priority = 23)
+  public void check_Holder_Name_Test() 
+  {
+	  Assert.assertEquals(memsettingpage.checkholdername(), "LucentInnovation  ");
+  }
+  @Test(priority = 24)
+  public void check_Card_Type_Test() 
+  {
+	  boolean cardtype = memsettingpage.checkcardtype();
+	  Assert.assertTrue(cardtype);
+  }
+
   @AfterMethod
  	public void takeScreenshot(ITestResult result) throws IOException {
  			if (ITestResult.FAILURE == result.getStatus()) {
  				TestUtil.takeScreenshot(driver, result.getName());
  			}
- 	}
- 	 @AfterClass
- 	public void teardown() {
- 		driver.quit();
  	}
 }

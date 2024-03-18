@@ -55,7 +55,7 @@ public class MemDashboardPage extends TestBase {
 	WebElement orders;
 	@FindBy(xpath = "(//span[@class='ant-typography pricing-section css-p897kf'])[4]")
 	WebElement impproduct;
-	@FindBy(xpath = "//span[text()='Anchor Family Name - Steel Sign']")
+	@FindBy(xpath = "//span[text()='Design Element Demo Product']")
 	WebElement topproduct;
 	@FindBy(xpath = "//span[@class='pricing-section ']")
 	WebElement salesreport;

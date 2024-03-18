@@ -151,7 +151,7 @@ public class MemDashboardPageTest extends TestBase {
 	@Test(priority = 20)
 	public void checkTopProductListValidationTest() 
 	{
-		Assert.assertEquals(memdashboardpage.checktopproductlist(), "Anchor Family Name - Steel Sign");
+		Assert.assertEquals(memdashboardpage.checktopproductlist(), "Design Element Demo Product");
 	}
 	@Test(priority = 21)
 	public void checkSalesReportTest() 

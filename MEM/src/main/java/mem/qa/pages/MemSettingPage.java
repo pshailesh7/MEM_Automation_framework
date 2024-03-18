@@ -74,9 +74,13 @@ public class MemSettingPage extends TestBase {
 	WebElement markupinputerror1;
 	@FindBy(xpath = "(//div[@class='ant-form-item-explain-error'])[2]")
 	WebElement markupinputerror2;
+	@FindBy(xpath = "(//div[@class='ant-form-item-explain-error'])[4]")
+	WebElement markupinputerror4;
+	@FindBy(xpath = "(//div[@class='ant-form-item-explain-error'])[6]")
+	WebElement markupinputerror6;
 	
 	//advance pricing rule
-	@FindBy(xpath = "//span[@class='ant-switch-inner']")
+	@FindBy(xpath = "//button[contains(@class,'ant-switch css-p897kf')]")
 	WebElement advancetoogle;
 	@FindBy(xpath = "//input[@id='basic_from']")
 	WebElement advpricefrom;
@@ -112,6 +116,19 @@ public class MemSettingPage extends TestBase {
 	WebElement updatecardbtn;
 	@FindBy(xpath = "//span[@class='card-status-text']")
 	WebElement cardstatus;
+	@FindBy(xpath = "//span[@class='card-last-four-digit']")
+	WebElement lastfourdigit;
+	@FindBy(xpath = "(//span[@class='card-holder-name'])[1]")
+	WebElement holdername;
+	@FindBy(xpath = "//div[@class='ant-notification-notice-message']")
+	WebElement noticmessage;
+	@FindBy(xpath = "//div[@class='card-type-icon']//*[name()='svg']")
+	WebElement cardtypeicon;
+	@FindBy(xpath = "//div[@id='basic_cvv_help']")
+	WebElement invaliderrormsg;
+	@FindBy(xpath = "//div[@id='basic_expiryDate_help']")
+	WebElement invalidexpirymsg;
+	
 	
  //all Action Methods
 	
@@ -172,21 +189,7 @@ public class MemSettingPage extends TestBase {
 		Thread.sleep(2000);
 		return notificationmessage.getText();
 	}
-	public String checksaveandupdatebtn() throws InterruptedException 
-	{
-		closebtn.click();
-		saveandupdatebtn.click();
-		Thread.sleep(2000);
-		confirmbtn.click();
-		Thread.sleep(2000);
-		return notificationmessage.getText();
-	}
-	public boolean checkvisibilitybtn() throws InterruptedException 
-	{	
-		Thread.sleep(3000);
-		driver.navigate().refresh();
-		return saveandupdatebtn.isSelected();
-	}
+	
 	public String checkinvalidinput() 
 	{
 		Actions action = new Actions(driver);
@@ -229,10 +232,10 @@ public class MemSettingPage extends TestBase {
 	{
 		WebDriverWait wait =new WebDriverWait(driver, 10);
 		Actions action = new Actions(driver);
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-        
-		wait.until(ExpectedConditions.elementToBeClickable(advancetoogle)).click();
-		js.executeScript("window.scrollBy(0,500)");
+		String currentStatus = advancetoogle.getAttribute("aria-checked");
+		
+		if(currentStatus.equals("false")) {
+			advancetoogle.click();
 		
 		wait.until(ExpectedConditions.elementToBeClickable(advpricefrom)).click();
 		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("10").perform();
@@ -259,14 +262,51 @@ public class MemSettingPage extends TestBase {
 		action.moveByOffset(0, 50).click().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(savebtn)).click();
 		
-		Thread.sleep(2000);
+		Thread.sleep(2000);}
+		if(currentStatus.equals("true")) {
+			
+			advancetoogle.click();
+			wait.until(ExpectedConditions.elementToBeClickable(savebtn)).click();
+			driver.navigate().refresh();
+			
+			advancetoogle.click();
+			wait.until(ExpectedConditions.elementToBeClickable(advpricefrom)).click();
+			action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("10").perform();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(advpriceto)).click();
+			action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("20").perform();
+
+			wait.until(ExpectedConditions.elementToBeClickable(advancemarkup)).click();
+			action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("2").perform();
+			
+			action.moveToElement(advancemarkuptype).click().perform();
+			action.moveByOffset(0, 50).click().perform();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(compareAtFrom)).click();
+			action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("15").perform();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(compareAtTo)).click();
+			action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("25").perform();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(compareAtMarkup)).click();
+			action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("3").perform();
+			
+			action.moveToElement(compareatmarkuptype).click().perform();
+			action.moveByOffset(0, 50).click().perform();
+			wait.until(ExpectedConditions.elementToBeClickable(savebtn)).click();
+			
+			Thread.sleep(2000);
+		}
 		return notificationmessage.getText();
 	}
-	public String checkadvsaveandupdate() 
+	public String checkadvsaveandupdate() throws InterruptedException 
 	{	
 		closebtn.click();
+		Thread.sleep(3000);
 		saveandupdatebtn.click();
-		
+		Thread.sleep(1000);
+		confirmbtn.click();
+		Thread.sleep(3000);
 		return notificationmessage.getText();
 	}
 	
@@ -279,5 +319,54 @@ public class MemSettingPage extends TestBase {
 	{
 		cardnumber.sendKeys("ssfgs");
 		return markupinputerror1.getText();
+	}
+	public String check_invalid_exp_date() throws InterruptedException 
+	{
+		expirydate.sendKeys("202305");
+		Thread.sleep(2000);
+		return invalidexpirymsg.getText();
+	}
+	public String check_invalid_cvv_no() throws InterruptedException 
+	{
+		cardcvv.sendKeys("a1b2");
+		Thread.sleep(1000);
+		return invaliderrormsg.getText();
+	}
+	public boolean check_blank_input_fields() 
+	{
+		cardnumber.clear();
+		cardholdername.clear();
+		expirydate.clear();
+		cardcvv.clear();
+		return updatecardbtn.isEnabled();
+	}
+	public String checkvalidcarddetails() throws InterruptedException 
+	{
+		Actions action = new Actions(driver);
+		cardnumber.click();
+		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("370000000000002").perform();
+		cardholdername.click();
+		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("LucentInnovation").perform();
+		expirydate.click();
+		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("202905").perform();
+		cardcvv.click();
+		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys("1234").perform();
+		Thread.sleep(2000);
+		updatecardbtn.click();
+		Thread.sleep(3000);
+		return noticmessage.getText();
+	}
+	
+	public String checklastfourdigit() 
+	{
+		return lastfourdigit.getText();
+	}
+	public String checkholdername() 
+	{
+		return holdername.getText();
+	}
+	public boolean checkcardtype() 
+	{
+		return cardtypeicon.isDisplayed();
 	}
 }
